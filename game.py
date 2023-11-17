@@ -21,4 +21,9 @@ def game_loop():
             print('pues eso')
             break
 
-game_loop()
+if __name__ == "__main__":
+    #no es importado me llamaron desde la linea comandos
+    game_loop()
+else:
+    #quiere decir que me han importado no hago nada
+    pass

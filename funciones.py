@@ -53,7 +53,7 @@ def evaluate_move(user_choice, computer_choice):
         winner = 'El jugador gana con {} contra {}'.format(user_choice,computer_choice)
     else:
         winner = 'El robot gana con {} contra {}'.format(computer_choice,user_choice)
-
+    
     return winner
 
 def print_result(result):
@@ -67,4 +67,4 @@ def print_result(result):
     print('----------\n')
     return None 
 
-
+print(evaluate_move('piedra', 'piedra'))
